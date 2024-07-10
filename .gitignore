@@ -1,0 +1,90 @@
+# dir
+**/versions/
+
+
+# Python関連
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# pytestキャッシュ
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# その他の一時ファイル
+*.log
+*.pot
+*.orig
+*.rej
+*.swo
+*.swp
+*.bak
+*.tmp
+*.temp
+*.old
+
+# Docker関連
+docker-compose.override.yml
+.docker/
+
+# VS Code関連
+.vscode/
+
+# macOS関連
+.DS_Store
+
+# Windows関連
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# パッケージング
+*.egg-info/
+.installed.cfg
+*.egg
+
+# バックアップファイル
+*.bak
+
+# その他IDEの設定ファイル
+.idea/
+*.iml
+
+# 忘れがちなもの
+*.sqlite3
+*.sqlite
+*.db
+
+# __pycache__ ディレクトリ
+**/__pycache__/
+
+
+*20240710.txt
